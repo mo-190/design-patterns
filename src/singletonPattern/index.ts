@@ -21,7 +21,7 @@ export default function singletonPattern() {
   }
   const s1 = Singleton.getInstance();
   const s2 = Singleton.getInstance();
-  console.log(s1 === s2);
+  // console.log(s1 === s2);
 }
 
 export function loginForm() {
